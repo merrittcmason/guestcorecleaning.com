@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-crimson: 0 0 0 !important; /* Black in light mode */
+}
+
+.dark {
+  color-scheme: dark;
+  --color-crimson: 255 255 255 !important; /* White in dark mode */
+}
