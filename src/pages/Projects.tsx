@@ -199,8 +199,8 @@ export const Projects: React.FC = () => {
                     key={index}
                     onClick={() => setCurrentSlide(index)}
                     className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                      index === currentSlide 
-                        ? (isDarkMode ? 'bg-white' : 'bg-black') 
+                      index === currentSlide
+                        ? (isDarkMode ? 'bg-white' : 'bg-black')
                         : 'bg-[#1d1d1d]'
                     }`}
                     aria-label={`Go to slide ${index + 1}`}
